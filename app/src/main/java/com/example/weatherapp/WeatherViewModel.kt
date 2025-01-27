@@ -6,6 +6,7 @@ import androidx.lifecycle.viewModelScope
 import com.example.weatherapp.api.Constant
 import com.example.weatherapp.api.RetrofitInstance
 import kotlinx.coroutines.launch
+import retrofit2.Response
 
 class WeatherViewModel :ViewModel() {
 
